@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Every developer has a story. Mine is just getting started.">
+  <defs>
+    <radialGradient id="glow" cx="0.85" cy="0.9" r="0.6">
+      <stop offset="0" stop-color="#5810FF" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#5810FF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="leaf" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6B4BC8" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#2A1D52" stop-opacity="0.15"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="300" rx="20" fill="#0D091A"/>
+  <rect width="1200" height="300" rx="20" fill="url(#glow)"/>
+
+  <!-- feuilles reprises du logo -->
+  <g fill="none" stroke="url(#leaf)" stroke-linecap="round">
+    <path d="M1010 40 C 1120 70, 1150 170, 1080 250" stroke-width="10"/>
+    <path d="M960 70 C 1040 110, 1060 190, 1010 260" stroke-width="6"/>
+    <path d="M1100 30 C 1160 90, 1170 150, 1150 210" stroke-width="4"/>
+  </g>
+
+  <text x="80" y="120" fill="#EEEAF6" font-family="Poppins, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="54" font-weight="800" letter-spacing="1">EVERY DEVELOPER</text>
+  <text x="80" y="185" fill="#EEEAF6" font-family="Poppins, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="54" font-weight="800" letter-spacing="1">HAS A STORY<tspan fill="#5810FF">.</tspan></text>
+  <text x="80" y="240" fill="#9C8BD9" font-family="Georgia, 'Times New Roman', serif" font-size="26" font-style="italic">Mine is just getting started.</text>
+</svg>
